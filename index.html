@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+
+    <!-- font awesome  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- bootstrap css -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- bootstrap js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="css/style.css" class="css" />
+  </head>
+
+  <body>
+    <header class="header">
+      <a href="#" class="logo"><i class="fas fa-person">thrive tribe</i></a>
+
+      <nav class="navbar1">
+        <div id="close-navbar" class="fas fa-times"></div>
+        <a href="index.html">home</a>
+        <a href="about.html">about</a>
+        <a href="contact.html">contact</a>
+
+        <a
+          class="btn btn-secondary dropdown-toggle"
+          href="#"
+          role="button"
+          id="dropdownMenuLink"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          we help with
+        </a>
+
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+          <li><a class="dropdown-item" href="./Anxiety.html">Anxiety</a></li>
+          <li><a class="dropdown-item" href="./depression.html">depression</a></li>
+          <li><a class="dropdown-item" href="./trauma.html">trauma</a></li>
+          <li><a class="dropdown-item" href="./procrastination.html">procrastination</a></li>
+          <li><a class="dropdown-item" href="./confidence.html">confidence</a></li>
+          
+        </ul>
+      </nav>
+
+      <div class="icons">
+        <div id="account-btn" class="fas fa-user"></div>
+        <div id="menu-btn" class="fas fa-bars"></div>
+      </div>
+    </header>
+
+    <!-- account form section start -->
+
+    <div class="account-form">
+      <div id="close-form" class="fas fa-times"></div>
+      <div class="buttons">
+        <span class="btn active login-btn" id="login1"> login</span>
+        <span class="btn register-btn" id="register1"> register</span>
+      </div>
+      <!-- login form -->
+      <form action="" method="post" class="login-form active">
+        <h3>login form</h3>
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="enter your email"
+          class="box"
+        />
+        <input
+          type="password"
+          name="passwd"
+          id=""
+          placeholder="enter your password"
+          class="box"
+        />
+
+        <div class="flex">
+          <input type="checkbox" name="check" id="remember-me" />
+          <label for="remember-me"> rememberme</label>
+          <a href="">forgot password?</a>
+        </div>
+
+        <input type="submit" value="login now" class="btn" />
+      </form>
+      <!-- login form -->
+
+      <!-- register form -->
+      <form action="" method="post" class="register-form">
+        <h3>register now</h3>
+        <input
+          type="email"
+          name="email"
+          id=""
+          placeholder="enter your email"
+          class="box"
+        />
+        <input
+          type="password"
+          name="passwd"
+          id=""
+          placeholder="enter your password"
+          class="box"
+        />
+        <input
+          type="password"
+          name="passwd"
+          id=""
+          placeholder="confirm your password"
+          class="box"
+        />
+
+        <input type="submit" value="register now" class="btn" />
+      </form>
+      <!-- register form -->
+    </div>
+    <!-- account form section end -->
+
+
+    
+
+    <!-- home section starts -->
+    <div class="home">
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <!-- 1st slide -->
+          <section class="swiper-slide slide" style="background: url(images/bg3.jpg) no-repeat">
+            <div class="content">
+              <h3>You Become What You Think</h3>
+              <p>
+                “No one would ever say that someone with a broken arm or a broken leg is less than a whole person, but people say that or imply that all the time about people with mental illness.”
+              </p>
+              <a href="login1" class="btn">get started</a>
+            </div>
+          </section>
+          <!-- 2nd slide -->
+          <section class="swiper-slide slide" style="background: url(images/bg1.jpg) no-repeat">
+            <div class="content">
+              <h3>There is hope even when your brain tells you there isn't</h3>
+              <p>
+                “The true definition of mental illness is when the majority of your time is spent in the past or future, but rarely living in the realism of NOW.”
+              </p>
+              <a href="#" class="btn">get started</a>
+            </div>
+          </section>
+
+          <!-- 3rd slide -->
+          <section class="swiper-slide slide" style="background: url(images/bg5.jpg) no-repeat">
+            <div class="content">
+              <h3>Do not let the behaviour of others destroy your inner peace</h3>
+              <p>
+                “Things not to say to someone with mental illness: Ignore it. Forget about it. Fight it. You are better than this. You are over thinking.”
+              </p>
+              <a href="#" class="btn">get started</a>
+            </div>
+          </section>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!-- home section ends -->
+
+    <!-- help with section starts -->
+
+
+    <section class="subjects">
+      <h1 class="h1-center">Articles</h1>
+      <div class="info row">
+      <div class="card col-4" style="width: 22rem; margin: 1rem 6rem;">
+        <img src="./images/anxiety.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Anxiety</h5>
+          <p class="card-text">Anxiety feels different depending on the person experiencing it. Feelings can range from butterflies in your
+            stomach to a racing heart.</p>
+          <a href="./Anxiety.html" class="btn ">Read more</a>
+        </div>
+      </div>
+
+      <div class="card col-4" style="width: 22rem; margin: 1rem 6rem;">
+        <img src="./images/trauma.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Depression</h5>
+          <p class="card-text">Depression is a chronic feeling of emptiness, sadness, or inability to feel pleasure that may appear to happen
+            for no clear reason.</p>
+          <a href="./trauma.html" class="btn ">Read more</a>
+        </div>
+      </div>
+
+      <div class="card col-4" style="width: 22rem;margin: 1rem 6rem;">
+        <img src="./images/depression.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Trauma</h5>
+          <p class="card-text">According to the American Psychological Association (APA), trauma is “an emotional response to a terrible event
+            like an accident, rape, or natural disaster.</p>
+          <a href="./depression.html" class="btn ">Read more</a>
+        </div>
+      </div>
+
+      </div>
+
+      <div class="info row">
+      <div class="card col-4" style="width: 22rem;margin: 1rem 6rem;">
+        <img src="./images/confidence.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">procrastination</h5>
+          <p class="card-text">Everyone puts things off sometimes, but procrastinators chronically avoid difficult tasks and may
+            deliberately look for distractions.</p>
+          <a href="./confidence.html" class="btn ">Read more</a>
+        </div>
+      </div>
+
+      <div class="card col-4" style="width: 22rem;margin: 1rem 6rem;">
+        <img src="./images/anxiety.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Confidence</h5>
+          <p class="card-text">Self-confidence is an attitude about your skills and abilities. It means you accept and trust yourself and
+            have a sense of control in your life.</p>
+          <a href="./Anxiety.html" class="btn ">Read more</a>
+        </div>
+      </div>
+
+      <div class="card col-4" style="width: 22rem; margin: 1rem 6rem;">
+        <img src="./images/anxiety.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Anxiety</h5>
+          <p class="card-text">Anxiety feels different depending on the person experiencing it. Feelings can range from butterflies in your
+            stomach to a racing heart.</p>
+          <a href="./Anxiety.html" class="btn ">Read more</a>
+        </div>
+      </div>
+
+
+    </div>
+    </section>
+    <!-- help with section ends -->
+
+
+
+
+
+
+
+    <!-- start of packages -->
+    <section class="home-packages">
+      <h1 class="h1-center">Popular packages</h1>
+        <div class="w row">
+          <div class="slide col-4">
+            <div class="image">
+              <img src="./images/pc1.jpg" alt="">
+              <h3>Understand</h3>
+            </div>
+            <div class="content">
+              <h3>Understand</h3>
+              <p>3 weekly Sessions</p>
+              <p>with our experts</p>
+              <a href="" class="btn">buy now <h2>only $20</h2></a>
+            </div>
+          </div>
+     
+          <div class="slide col-4">
+            <div class="image">
+              <img src="./images/pc2.jpg" alt="">
+              <h3>Introspect</h3>
+            </div>
+            <div class="content">
+              <h3>Introspect</h3>
+              <p>6 weekly Sessions</p>
+              <p>with our experts</p>
+              <a href="" class="btn">buy now <h2>only $30</h2></a>
+            </div>
+          </div>
+    
+    
+          <div class="slide col-4">
+            <div class="image">
+              <img src="./images/pc3.jpg" alt="">
+              <h3>Empowered</h3>
+            </div>
+            <div class="content">
+              <h3>Empowered</h3>
+              <p>unlimited Sessions</p>
+              <p>with our experts</p>
+              <a href="" class="btn">buy now <h2>only $40</h2></a>
+            </div>
+          </div>
+        </div>
+      
+    </section> 
+
+    <!-- end of packages -->
+
+
+    <!-- start of testimonial -->
+    <section class="container testimonial__container swiper mySwiper">
+      <h1 class="h1-center">Clients Testimonial</h1>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="/images/avatar11.jpg" class="avatar1" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h2>Charles</h2>
+  
+          </div>
+  
+          <div class="testimonial__body">
+            <p>Taken a Therapy at a time when life seemed hopeless. The ambience, the care, the ever supportive staff and
+              management, certified counselors along with their yoga and excercise regime has helped me get back on track
+              with an optimistic view on life which I felt I had lost.</p>
+          </div>
+  
+        </article>
+  
+        <article class="testimonial  swiper-slide">
+          <div class="avatar">
+            <img src="/images/avatar2.jpg" class="avatar1" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h2>Donald</h2>
+  
+          </div>
+  
+          <div class="testimonial__body">
+            <p>"I was scared to start therapy for my depression, but it was one of the best decisions I've ever made. My
+              therapist created a safe space for me to talk about my feelings and helped me develop a plan for moving
+              forward. I am now equipped with the tools I need to manage my mental health and lead a fulfilling life."</p>
+          </div>
+  
+        </article>
+  
+        <article class="testimonial  swiper-slide">
+          <div class="avatar">
+            <img src="/images/avatar3.jpg" class="avatar1" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h2>Peter</h2>
+  
+          </div>
+  
+          <div class="testimonial__body">
+            <p>"Therapy has been a lifesaver for me. My therapist helped me recognize and address the root causes of my
+              depression, and I have learned how to manage my symptoms effectively. I still have bad days, but they are
+              much fewer and farther between. I am grateful for the support and guidance I received during this difficult
+              time."</p>
+          </div>
+  
+        </article>
+  
+        <article class="testimonial  swiper-slide">
+          <div class="avatar">
+            <img src="/images/avatar4.jpg" class="avatar1" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h2>Josh</h2>
+  
+          </div>
+  
+          <div class="testimonial__body ">
+            <p>"I cannot recommend therapy enough for anyone struggling with depression. After working with a therapist
+              for several months, I feel like a completely different person. I have learned new coping skills, have a
+              better understanding of my emotions, and am able to enjoy life again. It has been a transformative
+              experience."</p>
+          </div>
+  
+        </article>
+  
+        <article class="testimonial  swiper-slide">
+          <div class="avatar">
+            <img src="/images/avatar5.jpg" class="avatar1" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h2>Garry</h2>
+  
+          </div>
+  
+          <div class="testimonial__body">
+            <p>Just Go- Bring yourself and the Therapies are already tailored for you to work on any areas of your
+              personal Journey.</p>
+          </div>
+  
+        </article>
+  
+        <article class="testimonial  swiper-slide">
+          <div class="avatar">
+            <img src="/images/avatar6.jpg" class="avatar1" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h2>Mathew</h2>
+  
+          </div>
+  
+          <div class="testimonial__body">
+            <p>My life become a much happier one .Thanks to the team at the Universal Help.</p>
+          </div>
+  
+        </article>
+  
+        <article class="testimonial  swiper-slide">
+          <div class="avatar">
+            <img src="images/avatar3.jpg" class="avatar1" alt="">
+          </div>
+          <div class="testimonial__info">
+            <h2>Harry</h2>
+  
+          </div>
+  
+          <div class="testimonial__body">
+            <p>I had the chance to start again- before the balance i didnt know what to do and how to help myself.</p>
+          </div>
+  
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+    <!-- End of testimonials -->
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+    <!-- footer section starts -->
+    <section class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="box col">
+            <h3><i class="fas.fa-lightbulb"></i>educa</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Dignissimos, accusamus?
+            </p>
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+              <a href="#"></a>
+            </div>
+          </div>
+
+          <div class="box col">
+            <h3>Quick links</h3>
+            <a href="index.html" class="link">home</a>
+            <a href="about.html" class="link">About</a>
+          
+            <a href="contact.html" class="link">Contact</a>
+          </div>
+          <div class="box col">
+            <h3>useful links</h3>
+            <a href="contact.html" class="link">help center</a>
+            <a href="contact.html" class="link">ask questions</a>
+            <a href="contact.html" class="link">send feedback</a>
+            <a href="#" class="link">private policy</a>
+            <a href="#" class="link">terms of use</a>
+          </div>
+          <div class="box col">
+            <h3>newsletter</h3>
+            <p>subscribe for latest updates</p>
+
+            
+
+            <form  id="newsletterForm">
+              <input type="email" id="emailInput" placeholder="Enter your email"  class="email">
+              <button type="submit" class="btn">Subscribe</button>
+            </form>
+          </div>
+        </div>
+      </div>
+
+      <div class="credit">
+        Created By <span>Thrive Tribe</span> all rights &copy; reserved
+      </div>
+    </section>
+    <!-- footer section ends -->
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- js link -->
+    <script src="/js/style.js"></script>
+  </body>
+</html>
